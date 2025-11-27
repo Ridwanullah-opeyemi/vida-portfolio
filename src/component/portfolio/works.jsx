@@ -13,14 +13,55 @@ import image6 from "../../assets/image6.jpg";
 import orange from "../../assets/orange.png";
 
 const projects = [
-  // ALL 7 project objects go here (copy/paste from Works component)
-  { id: 1, image: image1, title: "Food Delivery App 1", description: "...", link: "..." },
-  { id: 2, image: image2, title: "Food Delivery App 2", description: "...", link: "..." },
-  { id: 3, image: image3, title: "Food Delivery App 3", description: "...", link: "..." },
-  { id: 4, image: image4, title: "Food Delivery App 4", description: "...", link: "..." },
-  { id: 5, image: orange, title: "Food Delivery App 5", description: "...", link: "..." },
-  { id: 6, image: image5, title: "Food Delivery App 6", description: "...", link: "..." },
-  { id: 7, image: image6, title: "Admin Panel", description: "...", link: "..." },
+  {
+    id: 1,
+    image: image1,
+    title: "Food Delivery App 1",
+    description: "where u can order and enjoyed fast food",
+    link: "https://trown-delivery-wuqu.vercel.app",
+  },
+  {
+    id: 2,
+    image: image2,
+    title: "Food Delivery App 2",
+    description: "where u can order and enjoyed fast food",
+    link: "https://trown-delivery-wuqu.vercel.app",
+  },
+  {
+    id: 3,
+    image: image3,
+    title: "Food Delivery App 3",
+    description: "where u can order and enjoyed fast food",
+    link: "https://trown-delivery-wuqu.vercel.app",
+  },
+  {
+    id: 4,
+    image: image4,
+    title: "Food Delivery App 4",
+    description: "where u can order and enjoyed fast food",
+    link: "https://trown-delivery-wuqu.vercel.app",
+  },
+  {
+    id: 5,
+    image: orange,
+    title: "Food Delivery App 5",
+    description: "where u can order and enjoyed fast food",
+    link: "https://trown-delivery-wuqu.vercel.app",
+  },
+  {
+    id: 6,
+    image: image5,
+    title: "Food Delivery App 6",
+    description: "where u can order and enjoyed fast food",
+    link: "https://trown-delivery-wuqu.vercel.app",
+  },
+  {
+    id: 7,
+    image: image6,
+    title: "Admin Panel",
+    description: "A management interface for an application.",
+    link: "https://adminpenel-seven.vercel.app/add",
+  },
 ];
 
 
