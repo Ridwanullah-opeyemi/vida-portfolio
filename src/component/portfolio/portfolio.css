@@ -38,13 +38,21 @@
     margin: 0.5rem;
 }
 
+
 .worksbtn{
-    padding: 0.5rem 2.5rem;
-    border: none;
-    background: #fff;
-    border-radius: 2rem;
+    background: #8b780e; 
+    margin: 1rem 0;
     font-size: 1rem;
-    margin: 3rem 0;
+    padding: 0.5rem 2.5rem;
+    color: #ffffff; 
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.worksbtn:hover{
+    background-color: #ac940a 
 }
 
 .worksbtn a{
