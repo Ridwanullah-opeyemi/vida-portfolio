@@ -48,8 +48,7 @@ function Contact() {
             <div id="client">
                 <h2 className="contactpagetitle">My Clients</h2>
                 <p className="clientsdesc">
-                    I have had the opportunity to work with a diverse group of companies. 
-                    Some of the notable companies I have worked with include:
+                    My portfolio showcases my work across a variety of domains. I'm eager to tackle new challenges and deliver high-quality results for any client. Here are some key projects I've completed:
                 </p>
                 <div className="clientimgs">
                     <img src={wama} alt="Wama" className="clientimg" />
@@ -61,7 +60,7 @@ function Contact() {
             
             <div id="contctpage">
                 <h1 className="contactPageTitle">Contact Me</h1>
-                <span className="contactdesc">Please fill out the form below to discuss any work opportunities.</span>
+                <span className="contactdesc">Kindly complete the form below to inquire about potential work opportunities.</span>
                 
                 <form className="contactform" ref={form} onSubmit={sendEmail}>
                     <input type="text" name="user_name" className="name" placeholder='Your Name' required disabled={isLoading} /> 
