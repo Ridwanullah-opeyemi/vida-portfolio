@@ -7,7 +7,7 @@ import Microsoft from "../../assets/Microsoft.jpeg";
 import link from "../../assets/link.png";
 import Instagram from "../../assets/Instagram.jpeg";
 import xicon from "../../assets/xicon.jpeg";
-import Facebook_icon from "../../assets/Facebook_icon.jpeg";
+import Facebook_icon from "../../assets/Facebook.jpeg";
 import YouTube from "../../assets/YouTube.jpeg";
 import emailjs from '@emailjs/browser';
 
