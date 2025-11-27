@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  background-color: transparent;
+  color: #fff;
+  font-family:'Lucida Sans',  'Lucida Grande', 'Lucida Sans Unicode', Verdana,' Narrow Bold', sans-serif;
+}
+
+
+body {
+  background: #222222;
+  color: rgb(255, 255, 255); 
+  overflow: hidden;
+  overflow-y: scroll;
+}

@@ -1,0 +1,159 @@
+.contactpage{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.contactpagetitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffffff; 
+}
+
+.clientsdesc{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #cccccc;
+}
+
+.clientimgs{
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 1rem;
+}
+
+.clientimg{
+    object-fit: contain; 
+    width: 20%;
+    min-width: 8rem;
+    height: 6rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+.clientimg:hover {
+    opacity: 1;
+}
+
+#contctpage{
+    padding: 2rem 1rem;
+    width: 100%;
+    margin-top: 100px;
+}
+
+ #client{
+    padding: 2rem 1rem;
+}
+
+.contactdesc{
+    padding: 1rem;
+    font-size: large; 
+    font-weight: 300;
+    color: #cccccc;
+    display: block;
+}
+
+.contactform{
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%; 
+    max-width: 45rem; 
+}
+
+.name, .email, .subject, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 45rem; 
+    margin: 0.5rem 0; 
+    padding: 1rem 1.25rem; 
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    background: #282828;
+    transition: border-color 0.3s ease;
+}
+
+.name:focus, .email:focus, .subject:focus, .msg:focus {
+    outline: none;
+    border-color: #3498db; 
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+.msg{
+    resize: vertical; 
+    min-height: 8rem; 
+}
+
+.submitBtn{
+    background: #8b780e; 
+    padding: 0.75rem 3.5rem;
+    color: #ffffff; 
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem 0;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover{
+    background-color: #ac940a 
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem; 
+}
+
+.link{
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 0; 
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+.spinner {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    border-top-color: #ffffff;
+    animation: spin 1s ease-in-out infinite;
+    margin-right: 8px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.submitBtn:disabled {
+    background-color: #95a5a6; 
+    cursor: not-allowed;
+    opacity: 0.8;
+}
