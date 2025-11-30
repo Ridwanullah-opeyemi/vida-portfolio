@@ -60,7 +60,7 @@ const projects = [
     image: image6,
     title: "Admin Panel",
     description: "A management interface for an application.",
-    link: "https://adminpenel-seven.vercel.app/add",
+    link: "https://adminpenel-seven.vercel.app",
   },
 ];
 
