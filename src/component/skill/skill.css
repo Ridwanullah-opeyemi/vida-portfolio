@@ -9,13 +9,13 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 100px;
+    padding-top: 120px;
 }
 
 .skillsTitle {
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     margin-bottom: 1.5rem;
 }
 

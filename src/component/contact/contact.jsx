@@ -10,6 +10,7 @@ import xicon from "../../assets/xicon.jpeg";
 import Facebook_icon from "../../assets/Facebook.jpeg";
 import YouTube from "../../assets/YouTube.jpeg";
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 function Contact() {
     const form = useRef();
@@ -52,7 +53,7 @@ function Contact() {
                 </p>
                 <div className="clientimgs">
                     <img src={wama} alt="Wama" className="clientimg" />
-                    <img src={lonfb} alt="Lonfb" className="clientimg" />
+                    <Link target='bank' to={"https://www.youtube.com/@RIDWANULLAHGBOLAGADE https://www.facebook.com/profile.php?id=100085997614178"}><img src={lonfb} alt="Lonfb" className="clientimg" /></Link>
                     <img src={Microsoft} alt="Microsoft" className="clientimg" />
                     <img src={link} alt="Link" className="clientimg" />
                 </div>
@@ -87,10 +88,10 @@ function Contact() {
                     </button>
                     
                     <div className="links">
-                        <img src={Facebook_icon} alt="Facebook" className="link" />
+                        <Link target='bank' to={"https://www.youtube.com/@RIDWANULLAHGBOLAGADE https://www.facebook.com/profile.php?id=100085997614178"}><img src={Facebook_icon} alt="Facebook" className="link" /></Link>
                         <img src={Instagram} alt="Instagram" className="link" />
-                        <img src={xicon} alt="X (Twitter)" className="link" />
-                        <img src={YouTube} alt="YouTube" className="link" />
+                        <Link target='bank' to={"tiktok.com/@vida1234groo"}><img src={xicon} alt="X (Twitter)" className="link" /></Link>
+                        <Link target='bank' to={"https://www.youtube.com/@RIDWANULLAHGBOLAGADE"}><img src={YouTube} alt="YouTube" className="link" /></Link>
                     </div>
                 </form>
             </div>

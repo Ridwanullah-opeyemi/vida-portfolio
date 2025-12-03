@@ -1,11 +1,15 @@
 #into{
+    padding-top: 70px;
     height: calc(100vh -4rem);
+}
+
+.into{
     width: 100vw;
     max-width: 75rem;
-    margin: 0 auto;
+    margin: 50px auto;
     overflow: hidden;
     position: relative;
-    margin-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .bg{

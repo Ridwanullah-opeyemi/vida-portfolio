@@ -14,7 +14,7 @@ function Nav() {
         <Link to={"/"}><img className='logo' src={R} alt="" /></Link>
         
         <ul className='desktopmemu'>
-          <a href="#into" activeClass="active" className='desktopmenulistitem' offset={100}>Home</a>
+          <a href="#into" activeClass="active" className='desktopmenulistitem'>Home</a>
           <a href="#skills" className='desktopmenulistitem' >About</a>
           <a className='desktopmenulistitem' href="#works">Portfolio</a>
           <a className='desktopmenulistitem' href="#client">Client</a>

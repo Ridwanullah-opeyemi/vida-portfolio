@@ -9,6 +9,8 @@ function Intro() {
   
   return (
     <section id="into">
+      <div className='into'>
+
       <div className="introcontent">
         <span className='hello'>Hello,</span>
         <span className="inroduction">
@@ -21,7 +23,7 @@ function Intro() {
         </p>
         
         {/* Link updated to use the tel: protocol for direct calling */}
-        <Link to={`tel:${phoneNumber}`}>
+        <Link to={"/contact"}>
           <button className="btn">
             <img src={hire} alt="Hire me icon" className='btnimg' />
             Hire Me
@@ -30,6 +32,8 @@ function Intro() {
         
       </div>
       <img className='bg' src={vida} alt="Profile background image" />
+      </div>
+
     </section>
   );
 }

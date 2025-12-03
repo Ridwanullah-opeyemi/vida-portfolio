@@ -8,7 +8,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    /* border: solid; */
+}
+#client{
+    padding-top: 120px;
+
 }
 
 .contactpagetitle{
