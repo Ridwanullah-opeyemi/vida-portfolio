@@ -23,7 +23,7 @@ function Intro() {
         </p>
         
         {/* Link updated to use the tel: protocol for direct calling */}
-        <Link to={"/contact"}>
+        <Link to={`tel:${phoneNumber}`}>
           <button className="btn">
             <img src={hire} alt="Hire me icon" className='btnimg' />
             Hire Me

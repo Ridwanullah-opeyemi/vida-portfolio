@@ -20,7 +20,7 @@ function Nav() {
           <a className='desktopmenulistitem' href="#client">Client</a>
         </ul>
         <button className='desktopmemubuttom'>
-          <img src={contact} className='logocontact' alt="" />
+          <Link to={'/contact'}></Link><img src={contact} className='logocontact' alt="" />
           Contact me
         </button>
         <img className='mobmenu' src={menu} onClick={()=>setShowmenu(!showmenu)} alt="" />
