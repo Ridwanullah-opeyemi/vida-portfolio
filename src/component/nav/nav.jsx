@@ -19,10 +19,11 @@ function Nav() {
           <a className='desktopmenulistitem' href="#works">Portfolio</a>
           <a className='desktopmenulistitem' href="#client">Client</a>
         </ul>
-        <button className='desktopmemubuttom'>
-          <Link to={'/contact'}></Link><img src={contact} className='logocontact' alt="" />
+        <Link to={'/contact'}><button className='desktopmemubuttom'>
+          
+          <img src={contact} className='logocontact' alt="" />
           Contact me
-        </button>
+        </button></Link>
         <img className='mobmenu' src={menu} onClick={()=>setShowmenu(!showmenu)} alt="" />
         <ul className='navmenu' style={{display: showmenu ? "flex" : "none"}}>
           <a href="#into" activeClass="active" className='listitem' onClick={()=>setShowmenu(false)} offset={100}>Home</a>
