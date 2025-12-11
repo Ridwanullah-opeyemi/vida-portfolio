@@ -6,7 +6,7 @@ import image1 from "../../assets/image1.jpg";
 import image2 from "../../assets/image7.jpg";
 import image3 from "../../assets/image3.jpg";
 import image4 from "../../assets/image4.jpg";
-import image5 from "../../assets/image5.jpg";
+import rockandegg from "../../assets/rockandegg.png";
 import image6 from "../../assets/image6.jpg";
 import orange from "../../assets/orange.png";
 import starfoodl_og from "../../assets/starfoodl_og.png";
@@ -20,6 +20,13 @@ const projects = [
     description: "where u can order and enjoyed fast food",
     link: "https://trown-delivery-wuqu.vercel.app",
   },
+  {
+      id: 9,
+      image: rockandegg,
+      title: "A ROCK & EGG GAME FOR CHILD",
+      description: "where u can run, not to get breack by rock",
+      link: "https://vida-game01.vercel.app/",
+    },
   {
     id: 6,
     image: starfoodl_og,
