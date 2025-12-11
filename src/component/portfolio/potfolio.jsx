@@ -18,7 +18,7 @@ const projects = [
     image: orange,
     title: "Orange Food Delivery App",
     description: "where u can order and enjoyed fast food",
-    link: "https://trown-delivery-wuqu.vercel.app",
+    link: "https://orange-front-seven.vercel.app",
   },
   {
       id: 9,
@@ -46,28 +46,28 @@ const projects = [
     image: image1,
     title: "Food Delivery App 1",
     description: "where u can order and enjoyed fast food",
-    link: "https://trown-delivery-wuqu.vercel.app",
+    link: "https://orange-front-seven.vercel.app",
   },
   {
     id: 2,
     image: image2,
     title: "Food Delivery App 2",
     description: "where u can order and enjoyed fast food",
-    link: "https://trown-delivery-wuqu.vercel.app",
+    link: "https://orange-front-seven.vercel.app",
   },
   {
     id: 3,
     image: image3,
     title: "Food Delivery App 3",
     description: "where u can order and enjoyed fast food",
-    link: "https://trown-delivery-wuqu.vercel.app",
+    link: "https://orange-front-seven.vercel.app",
   },
   {
     id: 4,
     image: image4,
     title: "Food Delivery App 4",
     description: "where u can order and enjoyed fast food",
-    link: "https://trown-delivery-wuqu.vercel.app",
+    link: "https://orange-front-seven.vercel.app",
   },
 
 ];
